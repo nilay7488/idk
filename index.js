@@ -458,7 +458,7 @@ bot.on('guildMemberAdd', async member => {
 			);
 		if (channel) channel.send({ embed: embed });
 	}
-	}
+	
 });
 
 function parseMs(str) {
