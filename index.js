@@ -432,7 +432,7 @@ bot.on('guildMemberAdd', async member => {
 	let age = await wb.get(`age.${member.guild.id}`);
 	let logs = await wb.get(`logs.${member.guild.id}`);
 	let punishment = wb.get(`punishment.${member.guild.id}`);
-	let bypassed = await wb.get(`bypass.${member.guild.id}`);
+	
 	
 	
 	let day = Number(age)
